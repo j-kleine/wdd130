@@ -1,0 +1,21 @@
+nav {
+    font-family: Segoe UI Light;
+}
+
+h1 {
+    font-family: Century Gothic;
+}
+
+img {
+    width: 350px;
+    height: auto
+  }
+
+h2 {
+    font-family: Century Gothic;
+}
+
+footer {
+    font-family: Segoe UI Light;
+    color: rgb(51, 104, 153);
+}
