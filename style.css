@@ -1,6 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Poppins:wght@300&display=swap');
+
 nav {
+    background-color: rgb(198, 229, 255);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Poppins";
+}
+nav  {
+    list-style-type: none;
+    display: inline-flex;
+}
+nav a {
+    padding:1,2em;
+    min-width: 200px;
+    text-decoration: none;
     padding: 10px;
 }
-a {
-    margin: 10px;
+nav a:link, nav a:visited {
+    color: #000000;
+}
+nav a:hover {
+    color: #FFFFFF;
+    background-color: #134266;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    font-family: sans-serif;
+    text-align: center;
 }
