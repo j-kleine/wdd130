@@ -6,16 +6,12 @@ nav {
     text-align: center;
     font-size: 1.2em;
     font-family: "Poppins";
-}
-nav  {
-    list-style-type: none;
-    display: inline-flex;
+    display: inline-block;
 }
 nav a {
-    padding: 1,2em;
     min-width: 150px;
     text-decoration: none;
-    padding: 10px;
+    padding: 1.1em;
 }
 nav a:link, nav a:visited {
     color: #000000;
