@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kreon&family=Poppins:wght@300&display=swap');
 
+body {
+    background-color: #fffcf2;
+}
 nav {
+    border: none;
+    border-radius: 15px;
     min-width: 100%;
     line-height: 3em;
-    background-color: rgb(198, 229, 255);
+    background-color: #403d39;
     display: inline-block;
     font-family: "Poppins";
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 nav a {
@@ -15,21 +20,34 @@ nav a {
     padding: 1.1em;
 }
 nav a:link, nav a:visited {
-    color: #000000;
+    color: #fffcf2;
 }
 #active {
+    border: none;
+    border-radius: 15px;
+    color: #48BEFF;
     font-weight: bold;
+    text-transform: uppercase;
 }
 nav a:hover {
-    color: #FFFFFF;
-    background-color: #134266;
+    color: #48BEFF;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px #48BEFF;
 }
 h1 {
     font-family: sans-serif;
+    color: #252422;
+    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
 }
 p {
     font-family: sans-serif;
+    color: #403d39;
+    font-size: 2em;
     text-align: center;
+}
+.color-pal {
+    max-width: 200px;
+    margin: 0 auto;
 }
