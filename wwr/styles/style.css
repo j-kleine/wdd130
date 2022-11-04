@@ -21,7 +21,6 @@ h2 {
 }
 h4 {
     color: #FFFFFF;
-    font-family: 'Kreon', 'Rockwell', fantasy;
     font-size: 2em;
 }
 p {
@@ -40,14 +39,14 @@ nav {
 nav a {
     color: #134266;
     font-family: 'Kreon', 'Rockwell', fantasy;
-    font-size: 1.75em;
+    font-size: 1.25em;
     line-height: 1em;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     align-self: center;
-    padding: .5em .5em;
+    padding: 1em 1em;
     border: none;
     border-radius: 15px;
     transition: .2s;
