@@ -1,3 +1,4 @@
+/* General CSS */
 @import url('https://fonts.googleapis.com/css2?family=Kreon&family=Poppins:wght@300&display=swap');
 body {
     background-color: #FFFFFF;
@@ -75,6 +76,44 @@ header {
     height: auto;
     position: relative;
 }
+footer {
+    background-color: #134266;
+    padding: 25px 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+footer p {
+    color: #FFFFFF;
+    font-size: .8em;
+}
+#info {
+    font-size: .8em;
+}
+footer a {
+    color: #FFFFFF;
+    font-size: .8em;
+    text-decoration: none;
+}
+footer p a:hover {
+    color: #FCE172;
+    text-decoration: underline;
+}
+.social a img {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: .4s;
+}
+.social a img:hover {
+    border: none;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+/* Page 1 CSS - Home */
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -100,7 +139,7 @@ header {
     margin-top: 20px;
     margin-bottom: -20px;
 }
-img {
+.home-grid img {
     max-width: 100%;
 }
 .button-box {
@@ -193,42 +232,9 @@ main section img {
     font-size: 1em;
     padding-bottom: 15px;
 }
-footer {
-    background-color: #134266;
-    padding: 25px 50px;
-    margin-top: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-footer p {
-    color: #FFFFFF;
-    font-size: .8em;
-}
-#info {
-    font-size: .8em;
-}
-footer a {
-    color: #FFFFFF;
-    font-size: .8em;
-    text-decoration: none;
-}
-footer p a:hover {
-    color: #FCE172;
-    text-decoration: underline;
-}
-.social a img {
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    transition: .4s;
-}
-.social a img:hover {
-    border: none;
-    border-radius: 50%;
-    transition: .4s;
-}
+
+/* Page 2 CSS - Our Adventures */
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
