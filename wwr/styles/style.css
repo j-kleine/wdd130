@@ -337,7 +337,6 @@ main section img {
     margin: 0;
 }
 .card-salmonriver {
-    z-index: 1;
     grid-column: 2/4;
     grid-row: 9/10;
     background-color: #134266;
@@ -410,7 +409,6 @@ main section img {
     margin-top: 0;
 }
 .overlay {
-    z-index: 1;
     grid-column: inherit;
     grid-row: inherit;
     height: 0;
@@ -423,7 +421,7 @@ main section img {
 }
 .card-salmonriver:hover .overlay {
     opacity: 1;
-    height: 100%;
+    height: 80%;
     z-index: -1;
 }
 .card-desolation:hover .overlay {
@@ -432,11 +430,11 @@ main section img {
 }
 .card-grandcanyon-1:hover .overlay {
     opacity: 1;
-    height: 200px;
+    height: 140%;
 }
 .card-grandcanyon-2:hover .overlay {
     opacity: 1;
-    height: 100%;
+    height: 140%;
 }
 .overlay-text-h {
     z-index: -1;
