@@ -529,8 +529,86 @@ main section img {
 }
 .divider {
     grid-column: 1/11;
-    grid-row: 6/7;
+    grid-row: 7/8;
     height: 100px;
+}
+#feedback {
+    background-color: #FCE172;
+    box-shadow: 5px 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+    color: #134266;
+    font-family: 'Poppins', 'Century Gothic', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.moveDown {
+    margin-top: 3em;
+}
+form {
+    grid-column: 2/10;
+    grid-row: 6/7;
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #78C5D7;
+    border-radius: 15px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font: 1.2em 'Poppins', 'Century Gothic', sans-serif;
+}
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+    font: 1em 'Poppins', 'Century Gothic', sans-serif;
+
+  /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+  /* Match form field borders */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+  /* Additional highlight for focused elements */
+    border-color: #FCE172;
+}
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 150px; /* same size as the label elements */
+}
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+    font: 1.2em 'Kreon', 'Rockwell', fantasy;
 }
 
 
