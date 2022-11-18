@@ -175,3 +175,7 @@ footer p a:hover {
     max-width: 1200px;
     max-height: 805px;
 }
+table {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFAEB;
+}
