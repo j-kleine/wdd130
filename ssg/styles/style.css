@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    font-size: 16px;
+}
+#content {
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
+    color: #FEC000;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFAEB;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    -webkit-filter: drop-shadow(0px 10px 10px #222222);
+    filter: drop-shadow(0px 10px 10px #222222);
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 130px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo_link {
+    justify-content: center;
+}
+.logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(0px 10px 10px #222222);
+    filter: drop-shadow(0px 10px 10px #222222);
+}
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+nav a {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #FFFAEB;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .2s;
+}
+#active {
+    text-decoration: underline;
+}
+nav a:hover {
+    color: #FEC000;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #000000;
+    -webkit-filter: drop-shadow(0px -10px 10px #222222);
+    filter: drop-shadow(0px -10px 10px #222222);
+}
+.logo-simple {
+    width: 75px;
+    height: auto;
+    padding: 1em;
+}
+footer p a {
+    color: #FFFAEB;
+    transition: .2s;
+}
+footer p a:hover {
+    color: #FEC000;
+}
+.social {
+    padding: .5em;
+}
+.social a img {
+    margin: .5em;
+    width: 50px;
+    height: auto;
+    border: none;
+    border-radius: 50%;
+    filter: grayscale(.75);
+    transition: .2s;
+}
+.social a img:hover {
+    background-color: #FFFAEB;
+    filter: grayscale(0);
+}
+.copyremarks {
+    font-size: .4em;
+}
+
+/* Page 1 - Home - Specific CSS */
+.parallax1 {
+    background-image: url(../media/rsz_friendly-shiny.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 130px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    width: 100%;
+    height: 80.5vw;
+    max-width: 1200px;
+    max-height: 805px;
+}
+.hero-msg {
+    background-color: transparent;
+}
+.home-title {
+    background-color: transparent;
+}
