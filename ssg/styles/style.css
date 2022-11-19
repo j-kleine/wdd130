@@ -189,10 +189,18 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-    padding: .5em;
+    padding: .5em 1em;
     border-bottom: .1px solid #5C5C5C;
 }
 th {
     background-color: #FEC000;
     color: #141414;
+}
+.table-info {
+    display: inline;
+    width: 355px;
+}
+.table-gear {
+    display: inline;
+    width: 845px;
 }
