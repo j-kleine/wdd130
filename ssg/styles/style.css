@@ -182,7 +182,16 @@ footer p a:hover {
     max-width: 1200px;
     max-height: 805px;
 }
-table {
+table, th, td {
     font-family: 'Ubuntu', sans-serif;
     color: #FFFAEB;
+    border-collapse: collapse;
+}
+th, td {
+    padding: .5em;
+    border-bottom: .1px solid #5C5C5C;
+}
+th {
+    background-color: #FEC000;
+    color: #141414;
 }
