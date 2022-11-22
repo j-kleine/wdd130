@@ -24,25 +24,12 @@
             <h1 class="subpage-title">Contact Us</h1>
             <h4 class="findus-title">Find us here or reach out to us via phone or email!</h4>
             <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                  <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                  </li>
-                  <li>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_email" />
-                  </li>
-                  <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                  </li>
-                  <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-                </ul>
-              </form>
+            <form class="form-box" action="/my-handling-form-page" method="post">
+                <input type="text" id="name" name="user_name" placeholder="Name"/>
+                <input type="email" id="mail" name="user_email" placeholder="E-Mail"/>
+                <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+                <button class="submit-button" type="submit">Send your message</button>
+            </form>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12382.41994699529!2d-110.1182967!3d39.1154625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8748e8cf3e3462a9%3A0x36b38d39b2caecd4!2sSwaseys%20Boat%20Ramp!5e0!3m2!1sen!2sde!4v1668274473793!5m2!1sen!2sde" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
