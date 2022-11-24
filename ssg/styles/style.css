@@ -191,6 +191,10 @@ footer p a:hover {
 .p1-txt-intro p {
     text-align: center;
 }
+/* .p2-img-1 {
+    float: right;
+    margin: 0 0 2em 2em;
+} */
 .cc-box {
     display: flex;
     justify-content: space-around;
