@@ -102,7 +102,7 @@ main {
 footer {
     text-align: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #000000;
     filter: drop-shadow(0px -10px 10px #222222);
 }
@@ -158,7 +158,7 @@ footer p a:hover {
 .parallax1 {
     grid-column: 1/3;
     grid-row: 1/3;
-    background-image: url(../media/rsz_friendly-shiny.png);
+    background-image: url(../media/rsz_01friendly-shiny.png);
     background-attachment: fixed;
     background-position: center;
     background-position-y: 130px;
@@ -172,29 +172,43 @@ footer p a:hover {
 .p1-hero-msg {
     grid-column: 1/2;
     grid-row: 2/3;
+    padding-left: 40px;
 }
 .home-title {
+    text-align: center;
     margin: 0;
     font-size: 10em;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 10px 10px 20px #222222,
+                    -10px 10px 20px #222222,
+                    10px -10px 20px #222222,
+                    -10px -10px 20px #222222;
 }
 .home-subtitle {
+    text-align: center;
     margin: 0;
     font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 10px 10px 20px #222222,
+                    -10px 10px 20px #222222,
+                    10px -10px 20px #222222,
+                    -10px -10px 20px #222222;
 }
 .p1-txt-intro {
     padding: 40px;
 }
 .p1-txt-intro p {
+    margin: 40px 0;
+    padding-bottom: 40px;
     text-align: center;
 }
-/* .p2-img-1 {
-    float: right;
-    margin: 0 0 2em 2em;
-} */
+.p1-txt-intro p:nth-of-type(4) {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
 .cc-box {
     display: flex;
     justify-content: space-around;
@@ -203,8 +217,8 @@ footer p a:hover {
     margin: 0 auto;
     vertical-align: middle;
     width: auto;
-    height: 5vw;
-    max-height: 50px;
+    height: 7vw;
+    max-height: 70px;
     filter: grayscale(.5);
     transition: .2s;
 }
@@ -212,12 +226,110 @@ footer p a:hover {
     transform: scale(.95);
     filter: grayscale(0);
 }
+.connect {
+    margin-top: 80px;
+    padding-top: 40px;
+    width: 100%;
+    background-color: #000000;
+}
+.connect p {
+    text-align: center;
+    font-size: 1.2em;
+}
+#feedback {
+    background-color: #FEC000;
+    box-shadow: 0 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 1em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+    color: #141414;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+}
+.moveDown {
+    margin-top: 3em;
+}
+.form-box {
+    margin: 0 auto;
+    width: 100%;
+    align-self: center;
+    padding: 2em 0;
+    text-align: center;
+}
+input, textarea {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FEC000;
+    font-weight: 700;
+    padding: 10px;
+    margin: 5px auto;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #FEC000;
+    border-radius: 15px;
+    background-color: #141414;
+    transition: .2s;
+}
+input {
+    display: inline-flex;
+    width: 300px;
+}
+textarea {
+    display: block;
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 50px;
+}
+input:hover, textarea:hover {
+    border-color: #FEC000;
+    background-color: #000000;
+    color: #FEC000;
+}
+input:focus, textarea:focus {
+    border-color: #FEC000;
+    background-color: #000000;
+    color: #FEC000;
+    font-weight: 300;
+    outline: none;
+}
+input::placeholder, textarea::placeholder {
+    color: #FFFAEB;
+}
+.submit-button {
+    display: block;
+    margin: 10px auto;
+    background-color: #141414;
+    color: #FFFAEB;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid #FEC000;
+    border-radius: 15px;
+    transition: .2s;
+}
+.submit-button:hover {
+    background-color: #FEC000;
+    color: #141414;
+    border-color: #FEC000;
+}
 
 /* Page 2 - Quick Guide - Specific CSS */
 .parallax2 {
     grid-column: 1/3;
     grid-row: 1/3;
-    background-image: url(../media/rsz_thinking-shiny.png);
+    background-image: url(../media/rsz_02thinking-shiny.png);
     background-attachment: fixed;
     background-position: center;
     background-position-y: 130px;
@@ -231,20 +343,29 @@ footer p a:hover {
 .p2-hero-msg {
     grid-column: 2/3;
     grid-row: 2/3;
+    padding-right: 40px;
 }
 .p2-title {
-    text-align: right;
+    text-align: center;
     margin: 0;
     font-size: 7em;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 10px 10px 20px #222222,
+                    -10px 10px 20px #222222,
+                    10px -10px 20px #222222,
+                    -10px -10px 20px #222222;
 }
 .p2-subtitle {
-    text-align: right;
+    text-align: center;
     margin: 0;
     font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 10px 10px 20px #222222,
+                    -10px 10px 20px #222222,
+                    10px -10px 20px #222222,
+                    -10px -10px 20px #222222;
 }
 .p2-txt-intro {
     padding: 40px;
@@ -263,7 +384,7 @@ footer p a:hover {
 .parallax3 {
     grid-column: 1/3;
     grid-row: 1/3;
-    background-image: url(../media/Screenshot_20221109_221154.png);
+    background-image: url(../media/rsz_03building-shiny.png);
     background-attachment: fixed;
     background-position: center;
     background-position-y: 130px;
@@ -277,13 +398,19 @@ footer p a:hover {
 .p3-hero-msg {
     grid-column: 2/3;
     grid-row: 2/3;
+    padding-right: 40px;
 }
 .p3-title {
     text-align: right;
     margin: 0;
+    padding-top: 100px;
     font-size: 7em;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 10px 10px 20px #222222,
+                    -10px 10px 20px #222222,
+                    10px -10px 20px #222222,
+                    -10px -10px 20px #222222;
 }
 .p3-txt-intro {
     padding: 40px;
