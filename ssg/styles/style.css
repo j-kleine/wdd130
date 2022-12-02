@@ -384,16 +384,16 @@ input::placeholder, textarea::placeholder {
     display: flex;
     justify-content: space-around;
 }
-.p2-img-gallery img {
+.p2-img-gallery a img {
     margin: 0 auto;
     vertical-align: middle;
-    width: 25%;
+    width: 100%;
     height: auto;
     max-width: 250px;
     filter: grayscale(.5);
     transition: .2s;
 }
-.p2-img-gallery img:hover {
+.p2-img-gallery a img:hover {
     transform: scale(.95);
     filter: grayscale(0);
 }
