@@ -11,9 +11,9 @@
 <body>
     <div id="content">
         <header>
-            <div class="navbar">
+            <div id="navbar">
                 <a class="logo_link" href="index.html">
-                    <img class="logo" src="media/logo-banner.png" alt="logo shiny's squad gaming">
+                    <img id="logo" src="media/logo-banner.png" alt="logo shiny's squad gaming">
                 </a>
                 <nav>
                     <a href="index.html">Home</a>
@@ -432,5 +432,21 @@
             <p class="copyremarks">SOCIAL ICONS BY MYRIAMMIRA ON FREEPIK</p>
         </footer>
     </div>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 675 || document.documentElement.scrollTop > 675) {
+            document.getElementById("navbar").style.gridTemplateRows = "60px";
+            document.getElementById("logo").style.width = '70px';
+            document.getElementById("logo").style.marginTop = '-10px';
+        } else {
+            document.getElementById("navbar").style.gridTemplateRows = "130px";
+            document.getElementById("logo").style.width = '150px';
+            document.getElementById("logo").style.marginTop = '-5px';
+        }
+        }
+    </script>
 </body>
 </html>
