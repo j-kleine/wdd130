@@ -390,6 +390,8 @@ input::placeholder, textarea::placeholder {
     width: 100%;
     height: auto;
     max-width: 250px;
+    border: 2px solid #FEC000;
+    border-radius: 15px;
     filter: grayscale(.5);
     transition: .2s;
 }
@@ -436,20 +438,22 @@ input::placeholder, textarea::placeholder {
 .p3-txt-intro p {
     text-align: center;
 }
-.thumbnail-box {
+.p3-thumbnail-gallery {
     display: flex;
     justify-content: space-around;
 }
-.thumbnail-box a img {
+.p3-thumbnail-gallery a img {
     margin: 0 auto;
     vertical-align: middle;
     width: auto;
     height: 15vw;
     max-height: 200px;
+    border: none;
+    border-radius: 15px;
     filter: grayscale(.5);
     transition: .2s;
 }
-.thumbnail-box a img:hover {
+.p3-thumbnail-gallery a img:hover {
     transform: scale(.95);
     filter: grayscale(0);
 }
