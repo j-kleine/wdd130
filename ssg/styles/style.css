@@ -169,6 +169,8 @@ footer p a:hover {
     height: 80.5vw;
     max-width: 1200px;
     max-height: 805px;
+    border: none;
+    border-radius: 0 0 15px 15px;
 }
 .p1-hero-msg {
     grid-column: 1/2;
@@ -340,6 +342,8 @@ input::placeholder, textarea::placeholder {
     height: 80.5vw;
     max-width: 1200px;
     max-height: 805px;
+    border: none;
+    border-radius: 0 0 15px 15px;
 }
 .p2-hero-msg {
     grid-column: 2/3;
@@ -414,6 +418,8 @@ input::placeholder, textarea::placeholder {
     height: 80.5vw;
     max-width: 1200px;
     max-height: 805px;
+    border: none;
+    border-radius: 0 0 15px 15px;
 }
 .p3-hero-msg {
     grid-column: 2/3;
