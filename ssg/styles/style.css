@@ -210,11 +210,11 @@ footer p a:hover {
     text-align: center;
     text-transform: uppercase;
 }
-.cc-box {
+.p1-logo-gallery {
     display: flex;
     justify-content: space-around;
 }
-.cc-box a img {
+.p1-logo-gallery a img {
     margin: 0 auto;
     vertical-align: middle;
     width: auto;
@@ -223,7 +223,7 @@ footer p a:hover {
     filter: grayscale(.5);
     transition: .2s;
 }
-.cc-box a img:hover {
+.p1-logo-gallery a img:hover {
     transform: scale(.95);
     filter: grayscale(0);
 }
