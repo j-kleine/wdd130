@@ -218,14 +218,18 @@ footer p a:hover {
 }
 .p1-logo-gallery a img {
     margin: 0 auto;
+    padding: 10px;
     vertical-align: middle;
     width: auto;
     height: 7vw;
     max-height: 70px;
+    border: 2px solid #141414;
+    border-radius: 15px;
     filter: grayscale(.5);
     transition: .2s;
 }
 .p1-logo-gallery a img:hover {
+    border: 2px solid #FFFAEB;
     transform: scale(.95);
     filter: grayscale(0);
 }
@@ -400,6 +404,7 @@ input::placeholder, textarea::placeholder {
     transition: .2s;
 }
 .p2-img-gallery a img:hover {
+    border: 2px solid #FFFAEB;
     transform: scale(.95);
     filter: grayscale(0);
 }
@@ -454,12 +459,13 @@ input::placeholder, textarea::placeholder {
     width: auto;
     height: 15vw;
     max-height: 200px;
-    border: none;
+    border: 2px solid #141414;
     border-radius: 15px;
     filter: grayscale(.5);
     transition: .2s;
 }
 .p3-thumbnail-gallery a img:hover {
+    border: 2px solid #FFFAEB;
     transform: scale(.95);
     filter: grayscale(0);
 }
