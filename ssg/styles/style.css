@@ -380,6 +380,22 @@ input::placeholder, textarea::placeholder {
 .p2-txt p {
     text-align: justify;
 }
+.p2-img-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+.p2-img-gallery img {
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 250px;
+    height: auto;
+    filter: grayscale(.5);
+    transition: .2s;
+}
+.p2-img-gallery img:hover {
+    transform: scale(.95);
+    filter: grayscale(0);
+}
 
 /* Page 3 -  Builds - Specific CSS */
 .parallax3 {
