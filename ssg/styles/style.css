@@ -240,6 +240,7 @@ footer p a:hover {
     background-color: #000000;
 }
 .connect p {
+    margin: 0 40px;
     text-align: center;
     font-size: 1.2em;
 }
@@ -391,6 +392,9 @@ input::placeholder, textarea::placeholder {
 .p2-img-gallery {
     display: flex;
     justify-content: space-around;
+}
+.p2-img-gallery a {
+    padding: 0 5px;
 }
 .p2-img-gallery a img {
     margin: 0 auto;
