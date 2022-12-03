@@ -278,12 +278,10 @@ input, textarea {
     color: #FEC000;
     font-weight: 700;
     padding: 10px;
-    margin: 5px auto;
     height: 50px;
     box-sizing: border-box;
     text-align: center;
     border: 2px solid #FEC000;
-    border-radius: 15px;
     background-color: #141414;
     transition: .2s;
 }
@@ -293,9 +291,10 @@ input {
 }
 textarea {
     display: block;
+    margin: 5px auto;
     width: 100%;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 604px;
     min-height: 50px;
 }
 input:hover, textarea:hover {
@@ -312,6 +311,15 @@ input:focus, textarea:focus {
 }
 input::placeholder, textarea::placeholder {
     color: #FFFAEB;
+}
+#name {
+    border-radius: 15px 0 0 0;
+}
+#mail {
+    border-radius: 0 15px 0 0;
+}
+#msg {
+    border-radius: 0 0 15px 15px;
 }
 .submit-button {
     display: block;
