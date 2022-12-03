@@ -303,7 +303,7 @@ input:hover, textarea:hover {
     color: #FEC000;
 }
 input:focus, textarea:focus {
-    border-color: #FEC000;
+    border-color: #FFFAEB;
     background-color: #000000;
     color: #FEC000;
     font-weight: 300;
@@ -323,14 +323,14 @@ input::placeholder, textarea::placeholder {
 }
 .submit-button {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     background-color: #141414;
     color: #FFFAEB;
     font-family: 'Comfortaa', cursive;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border: 2px solid #FEC000;
     border-radius: 15px;
     transition: .2s;
