@@ -481,6 +481,59 @@ input::placeholder, textarea::placeholder {
     transform: scale(.95);
     filter: grayscale(0);
 }
+.accordion {
+    background-color: #000000;
+    cursor: pointer;
+    margin-top: 40px;
+    padding: 1em;
+    width: 100%;
+    text-align: left;
+    border: 2px solid #141414;
+    /* border-radius: 15px; */
+    outline: none;
+    transition: 0.2s;
+}
+.accordion h2 {
+    display: inline;
+    line-height: 2em;
+    padding-left: 40px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+    border: 2px solid #FFFAEB;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    /* display: none; */
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+.active {
+    background-color: #FEC000;
+    color: #141414;
+}
+.active h2 {
+    color: #141414;
+}
+
+.accordion:after {
+    content: '\276F'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #5C5C5C;
+    float: left;
+    margin-left: 5px;
+    transform: rotate(90deg);
+    transition: .2s;
+}
+
+.active:after {
+    transform: rotate(270deg);
+}
 
 table, th, td {
     font-family: 'Ubuntu', sans-serif;
