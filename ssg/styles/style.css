@@ -506,7 +506,7 @@ input::placeholder, textarea::placeholder {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 1px;
+    padding: 0 18px;
     /* display: none; */
     overflow: hidden;
     max-height: 0;
