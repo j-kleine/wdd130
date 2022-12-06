@@ -526,7 +526,7 @@ input::placeholder, textarea::placeholder {
     line-height: 2em;
     color: #5C5C5C;
     float: left;
-    margin-left: 5px;
+    margin-left: 20px;
     transform: rotate(90deg);
     transition: .2s;
 }
