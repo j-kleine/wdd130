@@ -465,7 +465,7 @@ input::placeholder, textarea::placeholder {
     display: flex;
     justify-content: space-around;
 }
-.p3-thumbnail-gallery a img {
+.p3-thumbnail-gallery img {
     margin: 0 auto;
     vertical-align: middle;
     width: auto;
@@ -476,7 +476,7 @@ input::placeholder, textarea::placeholder {
     filter: grayscale(.5);
     transition: .2s;
 }
-.p3-thumbnail-gallery a img:hover {
+.p3-thumbnail-gallery img:hover {
     border: 2px solid #FFFAEB;
     transform: scale(.95);
     filter: grayscale(0);
