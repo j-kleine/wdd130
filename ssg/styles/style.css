@@ -71,14 +71,14 @@ nav {
     /* justify-content: space-around; */
     align-items: center;
 }
-nav a {
+.navlinks {
     padding: 1em;
     text-align: center;
     font-family: 'Comfortaa', cursive;
     color: #FFFAEB;
     text-decoration: underline;
     text-decoration-color: transparent;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     font-weight: 700;
     text-transform: uppercase;
     transition: .2s;
@@ -121,7 +121,7 @@ footer {
     padding: .1em;
     background-color: #FFFAEB;
 }
-footer p {
+#info {
     font-family: 'Comfortaa', cursive;
     color: #FFFAEB;
 }
@@ -336,6 +336,7 @@ input::placeholder, textarea::placeholder {
     transition: .2s;
 }
 .submit-button:hover {
+    cursor: pointer;
     background-color: #FEC000;
     color: #141414;
     border-color: #FEC000;
