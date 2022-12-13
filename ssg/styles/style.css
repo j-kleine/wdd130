@@ -78,7 +78,7 @@ nav {
     color: #FFFAEB;
     text-decoration: underline;
     text-decoration-color: transparent;
-    /* font-size: 1.5em; */
+    font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
     transition: .2s;
